@@ -1,0 +1,26 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+
+# ML Core
+xgboost>=2.0.3
+scikit-learn>=1.4.2
+imbalanced-learn>=0.12.2
+
+# Explainability
+shap>=0.45.0
+
+# Data
+pandas>=2.2.2
+numpy>=1.26.4
+pyarrow>=16.0.0    # for parquet support
+
+# Visualisation
+matplotlib>=3.8.4
+seaborn>=0.13.2
+
+# Model persistence
+joblib>=1.4.0
+
+# Utilities
+requests>=2.31.0   # for test_api.py
